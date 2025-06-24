@@ -27,5 +27,14 @@ for(let i = 0; i< matrix.length; i++)
 let family = { parents: {}, children: [ {name: 'Avraham'}, {name: 'Lea'}, {name: 'Rachel'} ] };
 console.log(family.children[2].name)
 
+//ex4
+let arr = [1,2,3,4,5]
+  
+for(let i = 0; i < Math.floor(arr.length / 2); i++)
+  [ arr[i], arr[arr.length - (i + 1)] ] = [ arr[arr.length - (i + 1)], arr[i] ];
+  
+console.log(arr)
+  
+
 
 
