@@ -22,3 +22,10 @@ for(let i = 0; i< matrix.length; i++)
   for(let j = 0; j < matrix[i].length; j++)
     if((matrix[i][j]) === 'X')
       console.log(`(${i + 1}, ${j + 1})`)
+      
+//ex3
+let family = { parents: {}, children: [ {name: 'Avraham'}, {name: 'Lea'}, {name: 'Rachel'} ] };
+console.log(family.children[2].name)
+
+
+
